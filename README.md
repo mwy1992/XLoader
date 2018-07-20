@@ -5,6 +5,22 @@ All File will sign By PGP,You can Verify it By My PGP Public Key
 
 If compressed files do not contain sig files, they are all hooligans, Don't trust it!
 
+The folder in EFI partition may like this
+
+├EFI
+├key.po
+├series.po
+└Xloader
+  ├┬ACPI
+  │├Dump
+  │└Load
+  ├─Driver
+  ├┬Kexts
+  │├10.13
+  │├10.14
+  │└Other
+  └Defaults.plist
+
 Here is PGP Public Key,Please import it
 ```
 -----BEGIN PGP PUBLIC KEY BLOCK-----
